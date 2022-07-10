@@ -1723,7 +1723,7 @@ __metadata:
     ohmyfetch: ^0.4.18
     playwright: ^1.23.2
     unbuild: latest
-    vitest: ^0.17.1
+    vitest: ^0.18.0
   peerDependencies:
     vue: ^3.2.37
   languageName: unknown
@@ -1795,7 +1795,7 @@ __metadata:
     unbuild: latest
     unplugin: ^0.7.1
     vite: ^2.9.14
-    vite-node: ^0.17.1
+    vite-node: ^0.18.0
     vite-plugin-checker: ^0.4.8
     vue: 3.2.37
   peerDependencies:
@@ -1824,7 +1824,7 @@ __metadata:
     escape-string-regexp: ^5.0.0
     estree-walker: ^3.0.1
     file-loader: ^6.2.0
-    fork-ts-checker-webpack-plugin: ^7.2.11
+    fork-ts-checker-webpack-plugin: ^7.2.12
     fs-extra: ^10.1.0
     hash-sum: ^2.0.0
     lodash-es: ^4.17.21
@@ -2796,10 +2796,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@unocss/reset@npm:^0.43.2":
-  version: 0.43.2
-  resolution: "@unocss/reset@npm:0.43.2"
-  checksum: ea9a47d09b179f9b0ee2ff96e5f1617b8f6f3e790f809f9c8e2824e2bb048f0c5b0f653f50f2501f2b1e46e604f344981c94054e70deb1728b34cd440b119be3
+"@unocss/reset@npm:^0.44.0":
+  version: 0.44.0
+  resolution: "@unocss/reset@npm:0.44.0"
+  checksum: ce84a2a88223692f8958301a3baa0106bd6716b73ce1cf842a0de16411e5ec49596fd960db27a701777d276f524656112c0d26a2b10a6e8faeb1d75bfcffda28
   languageName: node
   linkType: hard
 
@@ -6780,9 +6780,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fork-ts-checker-webpack-plugin@npm:^7.2.11":
-  version: 7.2.11
-  resolution: "fork-ts-checker-webpack-plugin@npm:7.2.11"
+"fork-ts-checker-webpack-plugin@npm:^7.2.12":
+  version: 7.2.12
+  resolution: "fork-ts-checker-webpack-plugin@npm:7.2.12"
   dependencies:
     "@babel/code-frame": ^7.16.7
     chalk: ^4.1.2
@@ -6802,7 +6802,7 @@ __metadata:
   peerDependenciesMeta:
     vue-template-compiler:
       optional: true
-  checksum: b02942753e1c90b62ca674bfa004bc1561049b0c8c0fdc4d62bb13c156c93a0f2f496a7d3f95f93adcbac46c830bf83ba4c9fdef64cf871cdedf2f69f403511f
+  checksum: 79ccc4e6275c3f3e04e29bfcf13fe3eec1c61e285c1df942c14c92644a5c4f49deb4044cc73bef3becf24fa567a7fb6e37987f1fe2cae69f63fb4eba93bd9caa
   languageName: node
   linkType: hard
 
@@ -9841,7 +9841,7 @@ __metadata:
     "@nuxtjs/eslint-config-typescript": ^10.0.0
     "@types/node": ^16.11.43
     "@types/rimraf": ^3
-    "@unocss/reset": ^0.43.2
+    "@unocss/reset": ^0.44.0
     case-police: ^0.5.6
     changelogen: ^0.1.1
     eslint: ^8.19.0
@@ -9856,7 +9856,7 @@ __metadata:
     rimraf: ^3.0.2
     typescript: ^4.7.4
     unbuild: ^0.7.4
-    vitest: ^0.17.1
+    vitest: ^0.18.0
     vue-tsc: ^0.38.3
   languageName: unknown
   linkType: soft
@@ -13269,9 +13269,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-node@npm:^0.17.1":
-  version: 0.17.1
-  resolution: "vite-node@npm:0.17.1"
+"vite-node@npm:^0.18.0":
+  version: 0.18.0
+  resolution: "vite-node@npm:0.18.0"
   dependencies:
     debug: ^4.3.4
     kolorist: ^1.5.1
@@ -13280,7 +13280,7 @@ __metadata:
     vite: ^2.9.12 || ^3.0.0-0
   bin:
     vite-node: vite-node.mjs
-  checksum: 2f9bf02074cad7bf40372ec256fff6be12df7ca19d3cd96f2985bcd5d3f17bdc547379a2f96cf89bed6dbf911b96616347dc7c40610827f2b026a10ad60e6133
+  checksum: f1f533db023c9c18d086454c7fd5b674d7d353437f41b7653a7765dbf6d11f37b1eb173d200a9dfb5e9ab5e54547cfda3c284084a9197be8e0a051ddfc86f4fa
   languageName: node
   linkType: hard
 
@@ -13340,9 +13340,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vitest@npm:^0.17.1":
-  version: 0.17.1
-  resolution: "vitest@npm:0.17.1"
+"vitest@npm:^0.18.0":
+  version: 0.18.0
+  resolution: "vitest@npm:0.18.0"
   dependencies:
     "@types/chai": ^4.3.1
     "@types/chai-subset": ^1.3.3
@@ -13372,7 +13372,7 @@ __metadata:
       optional: true
   bin:
     vitest: vitest.mjs
-  checksum: eae2d024d97a46ba08f3cc7e0703a330c92dc0a6f4c7a9bc20ec8a5129bf787d8ebabd14bf31ae810897c1813e29178af59f63ec8b24b5944cfa62e225cd207c
+  checksum: 20e76b0de9f02dd09a412b11e5898d1ec7c5c9f9287da40a79fde98f6bd100db6f777fb5f1370496a2c153277cc5eb6738e176435101332fce1c87a565e62d5f
   languageName: node
   linkType: hard
 
